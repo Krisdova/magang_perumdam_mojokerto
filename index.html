@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perumdam Maja Tirta Mojokerto</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+<body>
+    <header id="header">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand text-light" href="pengaduan.html">
+                    <img src="./Gambar/Logo Perumdam Mojokerto1.png" alt="Logo" width="70" class="img-fluid">
+                    Perumdam Maja Tirta
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link active text-white" href="#hero">Beranda</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#tentang">Tentang Kami</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#layanan">Layanan</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#pembayaran">Pembayaran</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#informasi">Informasi</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#kontak">Hubungi Kami</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main id="main">
+        <!-- Hero -->
+        <section id="hero" class="hero d-flex align-items-center justify-content-center text-center text-white">
+            <div class="container">
+                <h1 class="display-4 fw-bold">Selamat Datang di Web PDAM Kota Mojokerto</h1>
+                <p class="lead">Air Bersih untuk Mojokerto Sejahtera</p>
+                <a href="#tentang" class="btn btn-primary btn-lg mt-3">Mulai</a>
+            </div>
+        </section>
+
+        <!-- Tentang Kami -->
+        <section id="tentang" class="py-5">
+            <div class="container">
+                <div class="row align-items-center">
+
+                    <!-- Kolom teks di kiri -->
+                    <div class="col-md-8" data-aos="fade-left">
+                        <h2 class="mb-4">Tentang Kami</h2>
+                        <p>
+                            Perumdam Maja Tirta Mojokerto adalah perusahaan daerah yang bergerak di bidang penyediaan
+                            air bersih untuk masyarakat kota Mojokerto. Dengan komitmen terhadap kualitas dan pelayanan,
+                            kami berupaya
+                            memberikan akses air bersih yang berkelanjutan demi kesejahteraan bersama.
+                        </p>
+                        <p>
+                            Visi kami adalah menjadi perusahaan air minum yang profesional, mandiri, dan berorientasi
+                            pada
+                            kepuasan pelanggan. Misi kami meliputi peningkatan kualitas layanan, pengelolaan sumber daya
+                            air secara berkelanjutan, serta kontribusi terhadap pembangunan daerah.
+                        </p>
+                    </div>
+
+                    <!-- Kolom gambar di kanan -->
+                    <div class="col-md-4 text-center" data-aos="fade-right">
+                        <img src="./Gambar/info.jpg" alt="Tentang Perumdam Maja Tirta"
+                            class="img-fluid rounded shadow">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Layanan -->
+        <section id="layanan" class="py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center mb-4">Layanan Kami</h2>
+                <div class="row justify-content-center text-center">
+
+                    <!-- Aduan Pelanggan -->
+                    <div class="col-md-3 col-sm-6 mb-4" data-bs-toggle="modal" data-bs-target="#modalpengaduan">
+                        <a href="#layanan" class="text-decoration-none text-dark">
+                            <div class="card h-100 shadow-sm" data-aos="fade-up">
+                                <div class="card-body">
+                                    <i class="fas fa-comments fa-3x mb-3 text-warning"></i>
+                                    <h5 class="card-title">Aduan Pelanggan</h5>
+                                    <p class="card-text">Sampaikan keluhan atau laporan terkait layanan air.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Pembayaran -->
+                    <div class="col-md-3 col-sm-6 mb-4">
+                        <a href="#pembayaran" class="text-decoration-none text-dark">
+                            <div class="card h-100 shadow-sm" data-aos="fade-up">
+                                <div class="card-body">
+                                    <i class="fas fa-credit-card fa-3x mb-3 text-danger"></i>
+                                    <h5 class="card-title">Pembayaran</h5>
+                                    <p class="card-text">Lakukan pembayaran tagihan melalui berbagai metode.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- Layanan Selesai -->
+
+        <!-- Pembayaran -->
+        <section id="pembayaran" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-5">Pembayaran</h2>
+
+                <div class="accordion" data-aos="fade-up" id="accordionPembayaran">
+
+                    <!-- Perbankan -->
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="headingBank">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseBank" aria-expanded="false" aria-controls="collapseBank">
+                                Perbankan
+                            </button>
+                        </h3>
+                        <div id="collapseBank" class="accordion-collapse collapse" aria-labelledby="headingBank"
+                            data-bs-parent="#accordionPembayaran">
+                            <div class="accordion-body">
+                                <div class="row text-center align-items-center">
+                                    <div class="col-6 col-md-3 mb-3">
+                                        <div class="logo-box"><img src="./Gambar/bank-bca.png" alt="Bank BCA" class="img-fluid"></div>
+                                    </div>
+                                    <div class="col-6 col-md-3 mb-3">
+                                        <div class="logo-box"><img src="./Gambar/bank-btn.png" alt="Bank BTN" class="img-fluid"></div>
+                                    </div>
+                                    <div class="col-6 col-md-3 mb-3">
+                                        <div class="logo-box"><img src="./Gambar/bank-btn-syariah.png" alt="Bank BTN Syariah" class="img-fluid"></div>
+                                    </div>
+                                    <div class="col-6 col-md-3 mb-3">
+                                        <div class="logo-box"><img src="./Gambar/bank-bri.png" alt="Bank BRI" class="img-fluid"></div>
+                                    </div>
+                                    <div class="col-6 col-md-3 mb-3">
+                                        <div class="logo-box"><img src="./Gambar/bank-sinarmas.png" alt="Bank Sinarmas" class="img-fluid"></div>
+                                    </div>
+                                    <div class="col-6 col-md-3 mb-3">
+                                        <div class="logo-box"><img src="./Gambar/bank-maybank.png" alt="Bank Maybank" class="img-fluid"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Retail / Minimarket -->
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="headingRetail">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseRetail" aria-expanded="false" aria-controls="collapseRetail">
+                                Retail / Minimarket
+                            </button>
+                        </h3>
+                        <div id="collapseRetail" class="accordion-collapse collapse" aria-labelledby="headingRetail"
+                            data-bs-parent="#accordionPembayaran">
+                            <div class="accordion-body">
+                                <div class="row text-center align-items-center">
+                                    <div class="col-6 col-md-3 mb-3">
+                                        <div class="logo-box"><img src="./Gambar/alfamidi.png" alt="Alfamidi"></div>
+                                    </div>
+                                    <div class="col-6 col-md-3 mb-3">
+                                        <div class="logo-box"><img src="./Gambar/alfamart.png" alt="Alfamart"></div>
+                                    </div>
+                                    <div class="col-6 col-md-3 mb-3">
+                                        <div class="logo-box"><img src="./Gambar/indomaret.png" alt="Indomaret"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- E-Commerce -->
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="headingEcommerce">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseEcommerce" aria-expanded="false"
+                                aria-controls="collapseEcommerce">
+                                E-Commerce
+                            </button>
+                        </h3>
+                        <div id="collapseEcommerce" class="accordion-collapse collapse"
+                            aria-labelledby="headingEcommerce" data-bs-parent="#accordionPembayaran">
+                            <div class="accordion-body">
+                                <div class="row text-center align-items-center">
+                                    <div class="col-6 col-md-3 mb-3">
+                                        <div class="logo-box"><img src="./Gambar/blibli.png" alt="Blibli"></div>
+                                    </div>
+                                    <div class="col-6 col-md-3 mb-3">
+                                        <div class="logo-box"><img src="./Gambar/bukalapak.png" alt="Bukalapak"></div>
+                                    </div>
+                                    <div class="col-6 col-md-3 mb-3">
+                                        <div class="logo-box"><img src="./Gambar/shopee.png" alt="Shopee"></div>
+                                    </div>
+                                    <div class="col-6 col-md-3 mb-3">
+                                        <div class="logo-box"><img src="./Gambar/tokopedia.png" alt="Tokopedia"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Distributor Pulsa -->
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="headingPulsa">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapsePulsa" aria-expanded="false" aria-controls="collapsePulsa">
+                                Distributor Pulsa
+                            </button>
+                        </h3>
+                        <div id="collapsePulsa" class="accordion-collapse collapse" aria-labelledby="headingPulsa"
+                            data-bs-parent="#accordionPembayaran">
+                            <div class="accordion-body">
+                                <div class="row text-center align-items-center">
+                                    <div class="col-6 col-md-3 mb-3">
+                                        <div class="logo-box"><img src="./Gambar/alfatrans-pulsa.png"
+                                                alt="Alfatrans Pulsa"></div>
+                                    </div>
+                                    <div class="col-6 col-md-3 mb-3">
+                                        <div class="logo-box"><img src="./Gambar/family-pulsa.png" alt="Family Pulsa">
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-3 mb-3">
+                                        <div class="logo-box"><img src="./Gambar/istana-reload.png" alt="Istana Reload">
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-3 mb-3">
+                                        <div class="logo-box"><img src="./Gambar/jelita-reload.png" alt="Jelita Reload">
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-3 mb-3">
+                                        <div class="logo-box"><img src="./Gambar/morena-pulsa.png" alt="Morena Pulsa">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Transportasi -->
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="headingTransportasi">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTransportasi" aria-expanded="false"
+                                aria-controls="collapseTransportasi">
+                                Transportasi
+                            </button>
+                        </h3>
+                        <div id="collapseTransportasi" class="accordion-collapse collapse"
+                            aria-labelledby="headingTransportasi" data-bs-parent="#accordionPembayaran">
+                            <div class="accordion-body">
+                                <div class="row text-center align-items-center">
+                                    <div class="col-6 col-md-3 mb-3">
+                                        <div class="logo-box"><img src="./Gambar/gojek.png" alt="Gojek"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- E-Wallet -->
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="headingEwallet">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseEwallet" aria-expanded="false" aria-controls="collapseEwallet">
+                                E-Wallet
+                            </button>
+                        </h3>
+                        <div id="collapseEwallet" class="accordion-collapse collapse" aria-labelledby="headingEwallet"
+                            data-bs-parent="#accordionPembayaran">
+                            <div class="accordion-body">
+                                <div class="row text-center align-items-center">
+                                    <div class="col-6 col-md-3 mb-3">
+                                        <div class="logo-box"><img src="./Gambar/dana.png" alt="Dana"></div>
+                                    </div>
+                                    <div class="col-6 col-md-3 mb-3">
+                                        <div class="logo-box"><img src="./Gambar/gopay.png" alt="Gopay"></div>
+                                    </div>
+                                    <div class="col-6 col-md-3 mb-3">
+                                        <div class="logo-box"><img src="./Gambar/link-aja.png" alt="LinkAja"></div>
+                                    </div>
+                                    <div class="col-6 col-md-3 mb-3">
+                                        <div class="logo-box"><img src="./Gambar/griya-bayar.png" alt="Griya Bayar">
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-3 mb-3">
+                                        <div class="logo-box"><img src="./Gambar/ges-pay.png" alt="Ges Pay"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Informasi -->
+        <section id="informasi" class="py-5 bg-light">
+            <div class="container">
+                <h2 class="mb-4">Informasi</h2>
+                <!-- Swiper container -->
+                <div class="swiper mySwiper" data-aos="fade-left">
+                    <div class="swiper-wrapper">
+                        <!-- Slide -->
+                        <div class="swiper-slide">
+                            <a href="./Informasi/Alur Pendaftaran Pelanggan Baru.png" class="info-box"
+                                data-lightbox="informasi" data-title="Alur Pendaftaran Pelanggan Baru">
+                                <img src="./Informasi/Alur Pendaftaran Pelanggan Baru.png"
+                                    class="img-fluid rounded shadow-sm" alt="Alur Pendaftaran Pelanggan Baru">
+                                <div class="overlay">
+                                    <div class="overlay-text">Alur Pendaftaran Pelanggan Baru</div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Slide -->
+                        <div class="swiper-slide">
+                            <a href="./Informasi/Alur Pemutusan Langganan.png" class="info-box"
+                                data-lightbox="informasi" data-title="Alur Pemutusan Langganan">
+                                <img src="./Informasi/Alur Pemutusan Langganan.png" class="img-fluid rounded shadow-sm"
+                                    alt="Alur Pemutusan Langganan">
+                                <div class="overlay">
+                                    <div class="overlay-text">Alur Pemutusan Langganan</div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Slide -->
+                        <div class="swiper-slide">
+                            <a href="./Informasi/Alur Pembayaran Tagihan.png" class="info-box" data-lightbox="informasi"
+                                data-title="Alur Pembayaran Tagihan">
+                                <img src="./Informasi/Alur Pembayaran Tagihan.png" class="img-fluid rounded shadow-sm"
+                                    alt="Alur Pembayaran Tagihan">
+                            </a>
+                        </div>
+                        <!-- Slide -->
+                        <div class="swiper-slide">
+                            <a href="./Informasi/Infografis Jam Operasional.png" class="info-box"
+                                data-lightbox="informasi" data-title="Jam Operasional">
+                                <img src="./Informasi/Infografis Jam Operasional.png"
+                                    class="img-fluid rounded shadow-sm" alt="Jam Operasional">
+                                <div class="overlay">
+                                    <div class="overlay-text">Jam Operasional Perumdam Maja Tirta Mojokerto</div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Slide -->
+                        <div class="swiper-slide">
+                            <a href="./Informasi/Infografis Tips Hemat Air.png" class="info-box"
+                                data-lightbox="informasi" data-title="Tips Hemat Air">
+                                <img src="./Informasi/Infografis Tips Hemat Air.png" class="img-fluid rounded shadow-sm"
+                                    alt="Tips Hemat Air">
+                                <div class="overlay">
+                                    <div class="overlay-text">Tips Hemat Air</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Tombol navigasi -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <!-- Pagination (opsional) -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hubungi Kami -->
+        <section id="kontak" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">Hubungi Kami</h2>
+                <p class="text-center mb-5">Silakan sampaikan pertanyaan atau masukan anda.</p>
+
+                <div class="row">
+                    <!-- Informasi Kontak -->
+                    <div class="col-md-5 mb-4" data-aos="zoom-in-right">
+                        <h5 class="mb-3">Kontak Perumdam Maja Tirta</h5>
+                        <p><i class="fas fa-map-marker-alt text-danger me-2"></i>Jl. Pahlawan No.40, Kranggan, Kec.
+                            Prajurit Kulon, Kota Mojokerto 61321
+                        </p>
+                        <p><i class="fas fa-phone text-success me-2"></i>(0321) 329011</p>
+                        <p><i class="fas fa-envelope text-primary me-2"></i>perumdamkotamjk@gmail.com</p>
+                        <p><i class="fas fa-clock text-warning me-2"></i>Senin - Kamis: 07.30 - 15.00 WIB</p>
+                        <p><i class="fas fa-clock text-warning me-2"></i>Jumat: 07.00 - 11.00 WIB</p>
+                        <p><i class="fas fa-clock text-warning me-2"></i>Jumat: 13.00 - 15.00 WIB</p>
+                    </div>
+
+                    <!-- maps -->
+                    <div class="col-md-7" data-aos="zoom-in-left">
+                        <div class="ratio ratio-16x9"><iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.8785283216166!2d112.43664751012085!3d-7.47866369250203!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e780d84948631c3%3A0xa3ea1fa864175c33!2sPDAM%20Kota%20Mojokerto!5e0!3m2!1sid!2sid!4v1766459748791!5m2!1sid!2sid"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer text-light pt-4 pb-2">
+  <div class="container">
+    <div class="row">
+      <!-- Identitas -->
+      <div class="col-12 text-center mb-2">
+        <h5 class="fw-bold">Perumdam Maja Tirta Mojokerto</h5>
+        <p class="mb-1">Maganghub Kemnaker</p>
+      </div>
+
+      <hr class="border-light">
+
+      <!-- Hak cipta -->
+      <p class="text-center mb-0">&copy; 2025 Perumdam Maja Tirta Mojokerto. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            AOS.init({
+                duration: 1000,
+                once: false
+            });
+        });
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+
+<script>
+    // Scroll ke elemen dengan animasi halus
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute("href")).scrollIntoView({
+                behavior: "smooth"
+            });
+        });
+    });
+
+</script>
+
+<!-- Modal Aduan Pelanggan -->
+<div class="modal" id="modalpengaduan" tabindex="-1" role="dialog" aria-labelledby="modalpengaduanLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title" id="modalpengaduanLabel">Form Pengaduan</h3>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body">
+                <form id="formPengaduan" method="POST">
+                    <div class="form-group">
+                        <label for="inputNama">Nama Lengkap</label>
+                        <input type="text" class="form-control" id="inputNama" placeholder="Contoh : Captain Popeye"
+                            required>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputAlamat">Alamat</label>
+                        <textarea class="form-control" id="inputAlamat" rows="2" placeholder="Alamat Lengkap Anda"
+                            required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputTelepon">No. Telepon</label>
+                        <input type="text" class="form-control" id="inputTelepon" placeholder="08xxxxxxxxxxx"
+                            maxlength="13" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputPelanggan">No. Pelanggan</label>
+                        <input type="text" class="form-control" id="inputPelanggan" placeholder="Nomor Pelanggan Anda"
+                            maxlength="13" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="JenisPengaduan">Jenis Pengaduan</label>
+                        <select class="form-control" id="JenisPengaduan" required>
+                            <option selected disabled>- Pilih Jenis Pengaduan -</option>
+                            <option>Air Kecil</option>
+                            <option>Air Keruh</option>
+                            <option>Air Tidak Mengalir</option>
+                            <option>Kebocoran</option>
+                            <option>Keluar Angin</option>
+                            <option>Meter Di Dalam Rumah / Bangunan</option>
+                            <option>Meter Hilang / Dicuri</option>
+                            <option>Meter Mati / Rusak</option>
+                            <option>Meter terpendam Di Dalam Tanah</option>
+                            <option>Pencurian Air</option>
+                            <option>Penyempurnaan Jaringan</option>
+                            <option>Pindah Meter</option>
+                            <option>Pipa Putus</option>
+                            <option>Stop Kran Rusak</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="DeskripsiPengaduan">DeskripsiPengaduan</label>
+                        <textarea class="form-control" id="DeskripsiPengaduan" rows="3" required></textarea>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-success">Kirim</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+
+        const form = document.getElementById("formPengaduan");
+        const inputNama = document.getElementById("inputNama");
+        const inputAlamat = document.getElementById("inputAlamat");
+        const inputTelepon = document.getElementById("inputTelepon");
+        const inputPelanggan = document.getElementById("inputPelanggan");
+        const jenisPengaduan = document.getElementById("JenisPengaduan");
+        const deskripsiPengaduan = document.getElementById("DeskripsiPengaduan");
+
+        if (!form) return;
+
+        // Kapital huruf awal nama
+        inputNama.addEventListener("blur", function () {
+            let value = this.value.trim();
+            this.value = value.replace(/\b\w/g, char => char.toUpperCase());
+        });
+
+        // Filter & batas nomor telepon
+        inputTelepon.addEventListener("input", function () {
+            let value = this.value;
+
+            if (value.startsWith("+62")) {
+                value = "08" + value.slice(3);
+            }
+
+            value = value.replace(/[^0-9]/g, "");
+            if (value.length > 13) value = value.slice(0, 13);
+
+            this.value = value;
+        });
+
+        form.addEventListener("submit", function (e) {
+
+            // ⛔ Stop submit dulu
+            e.preventDefault();
+
+            // 🔒 Validasi HTML
+            if (!form.checkValidity()) {
+                form.reportValidity();
+                return;
+            }
+
+            const telepon = inputTelepon.value;
+
+            // 🔒 Validasi panjang nomor
+            if (telepon.length < 11 || telepon.length > 13) {
+                alert("Nomor telepon harus 11–13 digit");
+                inputTelepon.focus();
+                return;
+            }
+
+            // ✅ FORMAT WA 
+            const nomorPDAM = "6281331443339";
+
+            const pesan = `*Pengaduan Perumdam Maja Tirta*
+
+Selamat Pagi/Siang/Sore Admin/Staff, berikut informasi pengaduan saya:
+
+*Nama*          :
+${inputNama.value}
+
+*Alamat*        :
+${inputAlamat.value}
+
+*No. Telepon*   :
+${telepon}
+
+*No. Pelanggan* :
+${inputPelanggan.value}
+
+*Jenis Aduan*   :
+${jenisPengaduan.value}
+
+*Deskripsi*     :
+${deskripsiPengaduan.value}
+
+Terima kasih sebelumnya.`;
+
+            const url = `https://wa.me/${nomorPDAM}?text=${encodeURIComponent(pesan)}`;
+            window.open(url, "_blank");
+
+            // (opsional) tutup modal
+            // const modal = bootstrap.Modal.getInstance(document.getElementById("modalpengaduan"));
+            // modal.hide();
+        });
+
+    });
+</script>
+
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,       // default (desktop)
+        spaceBetween: 20,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        breakpoints: {
+            // layar <= 576px (HP kecil)
+            0: {
+                slidesPerView: 1
+            },
+            // layar <= 768px (tablet)
+            768: {
+                slidesPerView: 2
+            },
+            // layar >= 992px (desktop)
+            992: {
+                slidesPerView: 3
+            }
+        }
+    });
+
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+    </script>
+
+</html>
