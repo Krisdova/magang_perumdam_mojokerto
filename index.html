@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -40,53 +41,117 @@
                 </div>
             </div>
         </nav>
+        <!-- Navbar selesai -->
     </header>
     <main id="main">
         <!-- Hero -->
         <section id="hero" class="hero d-flex align-items-center justify-content-center text-center text-white">
             <div class="container">
-                <h1 class="display-4 fw-bold">Selamat Datang di Web PDAM Kota Mojokerto</h1>
-                <p class="lead">Air Bersih untuk Mojokerto Sejahtera</p>
+                <!-- Judul utama -->
+                <h1 class="display-3 fw-bold text-uppercase mb-3">
+                    PERUMDAM MAJA TIRTA
+                </h1>
+
+                <!-- Subjudul kota -->
+                <h2 class="display-5 fw-semibold text-uppercase mb-4">
+                    KOTA MOJOKERTO
+                </h2>
+
+                <!-- Tombol -->
                 <a href="#tentang" class="btn btn-primary btn-lg mt-3">Mulai</a>
             </div>
         </section>
 
+        <!-- Hero selesai -->
+
         <!-- Tentang Kami -->
         <section id="tentang" class="py-5">
             <div class="container">
-                <div class="row align-items-center">
+                <div class="row justify-content-center">
 
-                    <!-- Kolom teks di kiri -->
-                    <div class="col-md-8" data-aos="fade-left">
-                        <h2 class="mb-4">Tentang Kami</h2>
-                        <p>
-                            Perumdam Maja Tirta Mojokerto adalah perusahaan daerah yang bergerak di bidang penyediaan
-                            air bersih untuk masyarakat kota Mojokerto. Dengan komitmen terhadap kualitas dan pelayanan,
-                            kami berupaya
-                            memberikan akses air bersih yang berkelanjutan demi kesejahteraan bersama.
-                        </p>
-                        <p>
-                            Visi kami adalah menjadi perusahaan air minum yang profesional, mandiri, dan berorientasi
-                            pada
-                            kepuasan pelanggan. Misi kami meliputi peningkatan kualitas layanan, pengelolaan sumber daya
-                            air secara berkelanjutan, serta kontribusi terhadap pembangunan daerah.
+                    <!-- Teks Tentang Kami -->
+                    <div class="col-md-10 text-center" data-aos="fade-up">
+                        <h2 class="mb-4 garis-bawah">Tentang Kami</h2>
+                        <p> Perumdam Maja Tirta Mojokerto adalah perusahaan daerah yang bergerak di bidang penyediaan
+                            air bersih untuk masyarakat kota Mojokerto.
+                            Dengan komitmen terhadap kualitas dan pelayanan, kami berupaya memberikan akses air bersih
+                            yang berkelanjutan demi kesejahteraan bersama.
                         </p>
                     </div>
 
-                    <!-- Kolom gambar di kanan -->
-                    <div class="col-md-4 text-center" data-aos="fade-right">
-                        <img src="./Gambar/info.jpg" alt="Tentang Perumdam Maja Tirta"
+                    <!-- Visi -->
+                    <div class="col-md-10 text-center mt-5" data-aos="fade-up">
+                        <h3 class="mb-3 garis-bawah">Visi</h3>
+                        <p class="text-center">
+                            Menjadi perusahaan air minum yang profesional, mandiri, dan berorientasi pada kepuasan
+                            pelanggan.
+                        </p>
+                    </div>
+
+                    <!-- Misi -->
+                    <div class="col-md-10 text-center mt-4" data-aos="fade-up">
+                        <h3 class="mb-3 garis-bawah">Misi</h3>
+                        <ul class="list-unstyled text-center">
+                            <li>
+                                <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                                Peningkatan kualitas layanan
+                            </li>
+                            <li>
+                                <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                                Pengelolaan sumber daya air secara berkelanjutan
+                            </li>
+                            <li>
+                                <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                                Kontribusi terhadap pembangunan daerah
+                            </li>
+                        </ul>
+                    </div>
+
+
+
+                    <!-- Gambar Tentang Kami -->
+                    <div class="col-md-8 text-center mt-4" data-aos="fade-up">
+                        <img src="./Gambar/TentangKami.png" alt="Tentang Perumdam Maja Tirta"
                             class="img-fluid rounded shadow">
+                    </div>
+
+                    <!-- Struktur Organisasi -->
+                    <div class="col-md-10 text-center mt-5" data-aos="fade-up">
+                        <h2 class="mb-4 garis-bawah">Struktur Organisasi</h2>
+                        <p>
+                            Struktur organisasi Perumdam Maja Tirta Mojokerto disusun untuk mendukung tata kelola
+                            perusahaan
+                            yang efektif dan transparan. Dengan pembagian tugas yang jelas, setiap unit memiliki peran
+                            penting
+                            dalam memastikan pelayanan air bersih berjalan optimal.
+                        </p>
+                        <p>
+                            Susunan organisasi ini mencerminkan komitmen kami terhadap profesionalisme, akuntabilitas,
+                            dan
+                            kerja sama tim demi tercapainya visi dan misi perusahaan.
+                        </p>
+                    </div>
+
+                    <!-- Gambar Struktur Organisasi -->
+                    <div class="col-md-10 text-center mt-4" data-aos="fade-up">
+                        <div class="p-4 bg-white rounded shadow">
+                            <img src="./Gambar/Struktur Organisasi Perumdam.png"
+                                alt="Struktur Organisasi Perumdam Maja Tirta" class="img-fluid">
+                        </div>
                     </div>
 
                 </div>
             </div>
         </section>
+        <!-- Tentang Kami selesai -->
+
 
         <!-- Layanan -->
         <section id="layanan" class="py-5 bg-light">
             <div class="container">
-                <h2 class="text-center mb-4">Layanan Kami</h2>
+                <div class="text-center">
+                    <h2 class="mb-4 garis-bawah">Layanan Kami</h2>
+                </div>
                 <div class="row justify-content-center text-center">
 
                     <!-- Aduan Pelanggan -->
@@ -123,7 +188,9 @@
         <!-- Pembayaran -->
         <section id="pembayaran" class="py-5">
             <div class="container">
-                <h2 class="text-center mb-5">Pembayaran</h2>
+                <div class="text-center">
+                    <h2 class="mb-5 garis-bawah">Pembayaran</h2>
+                </div>
 
                 <div class="accordion" data-aos="fade-up" id="accordionPembayaran">
 
@@ -140,22 +207,28 @@
                             <div class="accordion-body">
                                 <div class="row text-center align-items-center">
                                     <div class="col-6 col-md-3 mb-3">
-                                        <div class="logo-box"><img src="./Gambar/bank-bca.png" alt="Bank BCA" class="img-fluid"></div>
+                                        <div class="logo-box"><img src="./Gambar/bank-bca.png" alt="Bank BCA"
+                                                class="img-fluid"></div>
                                     </div>
                                     <div class="col-6 col-md-3 mb-3">
-                                        <div class="logo-box"><img src="./Gambar/bank-btn.png" alt="Bank BTN" class="img-fluid"></div>
+                                        <div class="logo-box"><img src="./Gambar/bank-btn.png" alt="Bank BTN"
+                                                class="img-fluid"></div>
                                     </div>
                                     <div class="col-6 col-md-3 mb-3">
-                                        <div class="logo-box"><img src="./Gambar/bank-btn-syariah.png" alt="Bank BTN Syariah" class="img-fluid"></div>
+                                        <div class="logo-box"><img src="./Gambar/bank-btn-syariah.png"
+                                                alt="Bank BTN Syariah" class="img-fluid"></div>
                                     </div>
                                     <div class="col-6 col-md-3 mb-3">
-                                        <div class="logo-box"><img src="./Gambar/bank-bri.png" alt="Bank BRI" class="img-fluid"></div>
+                                        <div class="logo-box"><img src="./Gambar/bank-bri.png" alt="Bank BRI"
+                                                class="img-fluid"></div>
                                     </div>
                                     <div class="col-6 col-md-3 mb-3">
-                                        <div class="logo-box"><img src="./Gambar/bank-sinarmas.png" alt="Bank Sinarmas" class="img-fluid"></div>
+                                        <div class="logo-box"><img src="./Gambar/bank-sinarmas.png" alt="Bank Sinarmas"
+                                                class="img-fluid"></div>
                                     </div>
                                     <div class="col-6 col-md-3 mb-3">
-                                        <div class="logo-box"><img src="./Gambar/bank-maybank.png" alt="Bank Maybank" class="img-fluid"></div>
+                                        <div class="logo-box"><img src="./Gambar/bank-maybank.png" alt="Bank Maybank"
+                                                class="img-fluid"></div>
                                     </div>
                                 </div>
                             </div>
@@ -312,13 +385,14 @@
                 </div>
             </div>
         </section>
-
-
+        <!-- Pembayaran selesai -->
 
         <!-- Informasi -->
         <section id="informasi" class="py-5 bg-light">
             <div class="container">
-                <h2 class="mb-4">Informasi</h2>
+                <div class="text-center">
+                    <h2 class="mb-4 garis-bawah">Informasi</h2>
+                </div>
                 <!-- Swiper container -->
                 <div class="swiper mySwiper" data-aos="fade-left">
                     <div class="swiper-wrapper">
@@ -383,11 +457,14 @@
                 </div>
             </div>
         </section>
+        <!-- Informasi selesai -->
 
         <!-- Hubungi Kami -->
         <section id="kontak" class="py-5">
             <div class="container">
-                <h2 class="text-center mb-4">Hubungi Kami</h2>
+                <div class="text-center">
+                    <h2 class=" mb-4 garis-bawah">Hubungi Kami</h2>
+                </div>
                 <p class="text-center mb-5">Silakan sampaikan pertanyaan atau masukan anda.</p>
 
                 <div class="row">
@@ -414,27 +491,30 @@
                 </div>
             </div>
         </section>
+        <!-- Hubungi Kami selesai -->
 
     </main>
 
+    <!-- Footer -->
     <footer class="footer text-light pt-4 pb-2">
-  <div class="container">
-    <div class="row">
-      <!-- Identitas -->
-      <div class="col-12 text-center mb-2">
-        <h5 class="fw-bold">Perumdam Maja Tirta Mojokerto</h5>
-        <p class="mb-1">Maganghub Kemnaker</p>
-      </div>
+        <div class="container">
+            <div class="row">
+                <!-- Identitas -->
+                <div class="col-12 text-center mb-2">
+                    <h5 class="fw-bold">Perumdam Maja Tirta Mojokerto</h5>
+                    <p class="mb-1">Maganghub Kemnaker</p>
+                </div>
 
-      <hr class="border-light">
+                <hr class="border-light">
 
-      <!-- Hak cipta -->
-      <p class="text-center mb-0">&copy; 2025 Perumdam Maja Tirta Mojokerto. All rights reserved.</p>
-    </div>
-  </div>
-</footer>
+                <!-- Hak cipta -->
+                <p class="text-center mb-0">&copy; 2025 Perumdam Maja Tirta Mojokerto. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer selesai -->
 
-
+    <!-- Script AOS effect -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
@@ -460,7 +540,6 @@
             });
         });
     });
-
 </script>
 
 <!-- Modal Aduan Pelanggan -->
@@ -477,8 +556,7 @@
                 <form id="formPengaduan" method="POST">
                     <div class="form-group">
                         <label for="inputNama">Nama Lengkap</label>
-                        <input type="text" class="form-control" id="inputNama" placeholder="Contoh : Captain Popeye"
-                            required>
+                        <input type="text" class="form-control" id="inputNama" placeholder="Nama Lengkap Anda" required>
                     </div>
                     <div class="form-group">
                         <label for="inputAlamat">Alamat</label>
@@ -527,6 +605,8 @@
         </div>
     </div>
 </div>
+
+<!-- Script kirim aduan ke WA -->
 <script>
     document.addEventListener("DOMContentLoaded", function () {
 
@@ -565,7 +645,7 @@
             // ⛔ Stop submit dulu
             e.preventDefault();
 
-            // 🔒 Validasi HTML
+            // Validasi HTML
             if (!form.checkValidity()) {
                 form.reportValidity();
                 return;
@@ -573,14 +653,14 @@
 
             const telepon = inputTelepon.value;
 
-            // 🔒 Validasi panjang nomor
+            // Validasi panjang nomor
             if (telepon.length < 11 || telepon.length > 13) {
                 alert("Nomor telepon harus 11–13 digit");
                 inputTelepon.focus();
                 return;
             }
 
-            // ✅ FORMAT WA 
+            // FORMAT WA 
             const nomorPDAM = "6281331443339";
 
             const pesan = `*Pengaduan Perumdam Maja Tirta*
@@ -647,7 +727,6 @@ Terima kasih sebelumnya.`;
     });
 
 </script>
-
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
