@@ -115,6 +115,7 @@ h3 {
 
 
 #tentang p {
+  text-indent: 2em; /* jarak menjorokkan teks */
   text-align: justify;
 }
 
@@ -297,4 +298,5 @@ h3 {
     box-shadow: 0 0 15px rgba(214, 228, 240, 0.7), 0 0 30px rgba(214, 228, 240, 0.5);
   }
 }
+
 
