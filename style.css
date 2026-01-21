@@ -85,7 +85,7 @@ h3 {
 
 
 .hero {
-  background: url('./Gambar/hero.jpg') no-repeat center center;
+  background: url('./Gambar/hero1.jpeg') no-repeat center center;
   background-size: cover;       /* supaya gambar menutupi seluruh area */
   min-height: 100vh;            /* tinggi penuh layar */
   position: relative;
@@ -298,5 +298,3 @@ h3 {
     box-shadow: 0 0 15px rgba(214, 228, 240, 0.7), 0 0 30px rgba(214, 228, 240, 0.5);
   }
 }
-
-
